@@ -45,4 +45,4 @@ jobs:
     - name: Bildar Docker
       run: |
         docker build -t generic-services-api .
-        docker run generic-services-api
+        # docker run generic-services-api
