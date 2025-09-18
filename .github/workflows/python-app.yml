@@ -39,10 +39,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: Checkout do código
-      uses: actions/checkout@v4
+    # - name: Checkout do código
+    #   uses: actions/checkout@v4
 
     - name: Bildar Docker
       run: |
         docker build -t generic-services-api .
-        docker run generic-services-api
+        #docker run generic-services-api
